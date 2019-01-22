@@ -1,5 +1,5 @@
-testString = "UDDDUDUU"
-num = len(testString)
+string = "UDDDUDUU"
+num = len(string)
 
 def countingValleys(n,s):
     sea_level = 0
@@ -14,4 +14,4 @@ def countingValleys(n,s):
             sea_level -= 1
     print (valley_count)
 
-countingValleys(num, testString)
+countingValleys(num, string)
